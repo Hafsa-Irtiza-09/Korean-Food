@@ -1,0 +1,101 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header img {
+    width: 100%;
+    height: 700px;
+    opacity: 0.9;
+}
+
+h1 {
+    padding: 20px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: palevioletred;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    border: 4px solid white;
+    border-radius: 2px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+h1:hover {
+
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkmagenta;
+    border-radius: 10px;
+    border: 4px solid black;
+}
+
+.navbar ul {
+    list-style: none;
+    background-color: rgb(1, 1, 71);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: whitesmoke;
+    width: 100%;
+    display: block;
+    padding: 25px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar li a:hover {
+    background-color:grey;
+    color: aliceblue;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+
+
+}
+
+.container img {
+    max-width: 30%;
+    max-height: 30%;
+    margin: 20px;
+    border-radius: 10%;
+    border:2px solid whitesmoke;
+    
+}
+
+.container img:hover {
+    opacity: 0.7;
+    box-shadow:4px 7px 7px 0px grey;
+
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    animation-name: for-h2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes for-h2 {
+    from{
+        color: black;
+        font-size: 50px;
+    }
+    to{
+        color: palevioletred;
+        font-size: 60px;
+    }
+    
+}
